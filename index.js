@@ -1,6 +1,5 @@
 function stabilize(){
 	window.scrollBy(0, 0);
-	document.getElementById('back-to-top').style.display = 'none';
 }
 window.onscroll = function()
 {
