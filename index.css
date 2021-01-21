@@ -7,10 +7,6 @@
 	font-family: 'Montserrat-Regular';
 	src: url('Montserrat-Regular.ttf');
 }
-@font-face{
-	font-family: 'Montserrat-Bold';
-	src: url('fonts/Montserrat-Bold.ttf');
-}
 html,body{
 	height: 100%;
 	scroll-behavior: smooth;
