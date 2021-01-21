@@ -26,7 +26,7 @@ button{
 	min-height: calc(100vh - 250px);
 }
 #nav-overlay{
-	display: none;
+/* 	display: none; */
 	position: fixed;
 	top: 0;
 	left: 0;
