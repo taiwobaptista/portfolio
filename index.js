@@ -9,14 +9,14 @@ function scrollFunction()
 {
 	if(document.body.scrollTop > 280 || document.documentElement.scrollTop > 280)
 	{
-		document.getElementById('back-to-top').style.display = 'flex';
+// 		document.getElementById('back-to-top').style.display = 'flex';
 		document.getElementById('back-to-top').style.bottom = '30px';
 		document.getElementById('back-to-top').style.animation = 'updown 1s infinite';
 	}
 	else
 	{
 		document.getElementById('back-to-top').style.bottom = '-50px';
-		document.getElementById('back-to-top').style.display = 'none';
+// 		document.getElementById('back-to-top').style.display = 'none';
 		document.getElementById('back-to-top').style.animation = 'none';
 	}
 }
