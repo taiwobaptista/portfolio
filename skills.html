@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/6d56d9fa5c.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <title>home</title>
+</head>
+<body onload="stabilize()" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+<div class="not-footer">
+    <div id="nav-overlay"></div>
+    <button onclick="topFunction()" class="back-to-top" id="back-to-top"><i class="fas fa-chevron-up" style="font-size:35px; margin-right:0; color:white;" aria-hidden="true"></i>
+    </button>
+    <!-----------------------------Header--------------------------->
+    <div class="header">
+        <div id="logo" class="logo" onmouseenter="display(this.id)" onclick="display(this.id)">
+            <div class="logo-design">
+                <div class="e-cont">
+                    <div class="e e1"></div>
+                    <div class="e e2"></div>
+                    <div class="e e3"></div>
+                </div>
+            </div>
+            <span class="logo-name">Ezekiel</span>
+        </div>
+        <div id="hamburger" class="hamburger" onclick="openNav(); display(this.id)">
+            <input type="checkbox">
+            <span class="ham"></span>
+            <span class="ham"></span>
+        </div>
+        <div id="vertical-nav">
+            <div class="space"></div>
+            <div class="links">
+                
+    <a href="/"><i class="fas fa-home" aria-hidden="true"></i> Home</a>
+    <a href="/about"><i class="fas fa-user" aria-hidden="true"></i> About</a>
+    <a href="/skills" style="color:#4AEFDF;"><i class="fas fa-tools" aria-hidden="true"></i> Skills</a>
+    <a href="/projects"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a>
+    <a href="/contact"><i class="fas fa-paper-plane" aria-hidden="true"></i>Contact</a>
+
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/nwoye_ezekiel/"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/nwoye_ezekiel/"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+                <a href="mailto:chinecherem.nwoye.cn@gmail.com"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="horizontal-nav">
+            <div class="links">
+                
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/skills" class="current" onmouseover="this.style.borderBottom='2px #4AEFDF solid'">Skills</a>
+    <a href="/projects">Projects</a>
+    <a href="/contact">Contact</a>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------/Header----------------------------->
+
+    
+    <!------------------------------Skills-------------------------->
+    <div class="skills">
+        <div data-aos="fade-zoom-in" class="title skills-title aos-init aos-animate">Skills</div>
+        <div class="skills-cont">
+            <div class="skill">
+                <p data-aos="fade-right" class="sub-title aos-init aos-animate">Languages <i class="fas fa-code" aria-hidden="true"></i></p>
+                <ul data-aos="fade-left" style="color: white; margin: 20px 20px;" class="aos-init aos-animate">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="horizontal-line1"></div>
+            <div class="vertical-line"></div>
+            <div class="skill">
+                <p data-aos="fade-right" class="sub-title aos-init aos-animate">What i design <i class="fas fa-pencil-alt" aria-hidden="true"></i></p>
+                <ul data-aos="fade-left" style="color: white; margin: 20px 20px;" class="aos-init aos-animate">
+                    <li>Graphic Designs</li>
+                    <li>Logos</li>
+                    <li>UI</li>
+                    <li>UX</li>
+                    <li>Websites</li>
+                    <li>Mobile</li>
+                </ul>
+            </div>
+            <div class="horizontal-line1 horizontal-line2"></div>
+            <div class="vertical-line"></div>
+            <div class="skill">
+                <p data-aos="fade-right" class="sub-title aos-init aos-animate">IDEs/Softwares <i class="fas fa-tv" aria-hidden="true"></i></p>
+                <ul data-aos="fade-left" style="color: white; margin: 20px 20px;" class="aos-init aos-animate">
+                    <li>Visual Studio</li>
+                    <li>Visual Studio Code</li>
+                    <li>Sublime Text</li>
+                    <li>Notepad++</li>
+                    <li>Spyder</li>
+                    <li>Code::Blocks</li>
+                    <li>CorelDraw</li>
+                    <li>Figma</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--------------------------/Skills----------------------------->
+
+</div>
+<!--------------------------Footer------------------------------>
+<div class="section footer" style="background: #1B1E22;">
+    <div id="logo-footer" class="logo logo-footer" onmouseenter="display(this.id)" onclick="display(this.id)">
+        <div class="logo-design">
+            <div class="e-cont">
+                <div class="e e-footer e1"></div>
+                <div class="e e-footer e2"></div>
+                <div class="e e-footer e3"></div>
+            </div>
+        </div>
+        <span class="logo-name">Ezekiel</span>
+    </div>
+    <div class="footer__cont" style="color:white; font-size:18px;">Follow/contact on</div>
+    <div class="social footer__cont" style="color: white;">
+        <a href="https://www.instagram.com/nwoye_ezekiel/"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a>
+        <a href="https://www.twitter.com/nwoye_ezekiel/"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+        <a href="mailto:chinecherem.nwoye.cn@gmail.com"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
+    </div>
+    <div class="footer__cont" style="color:#979da5;">
+        © 2020 Ezekiel, Inc. All Rights Reserved.
+    </div>
+    <div class="footer__cont" style="color:#979da5; margin-top:10px;">
+        Handcrafted by Me.
+    </div>
+</div>
+<!-------------------------/Footer------------------------------>
+<!-------------------------Script------------------------------->
+<script type="text/javascript">
+    AOS.init({
+        duration: 1200,
+    })
+</script>
+<!------------------------/Script------------------------------->
+
+
+</body></html>
