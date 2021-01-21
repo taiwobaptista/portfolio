@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/6d56d9fa5c.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <title>home</title>
+</head>
+<body onload="stabilize()" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+<div id="nav-overlay"></div>
+<button onclick="topFunction()" class="back-to-top" id="back-to-top" style="bottom: 30px; animation: 1s ease 0s infinite normal none running updown;"><i class="fas fa-chevron-up" style="font-size:35px; margin-right:0; color:white;" aria-hidden="true"></i>
+</button>
+<!--------------------------Header------------------------------>
+<div class="header">
+    <div id="logo" class="logo" onmouseenter="display(this.id)" onclick="display(this.id)">
+        <div class="logo-design">
+            <div class="e-cont">
+                <div class="e e1"></div>
+                <div class="e e2"></div>
+                <div class="e e3"></div>
+            </div>
+        </div>
+        <span class="logo-name">Ezekiel</span>
+    </div>
+    <div id="hamburger" class="hamburger" onclick="openNav(); display(this.id)">
+        <input type="checkbox">
+        <span class="ham"></span>
+        <span class="ham"></span>
+    </div>
+    <div id="vertical-nav">
+        <div class="space"></div>
+        <div class="links">
+            <a href="/" style="color:#4AEFDF;"><i class="fas fa-home" aria-hidden="true"></i> Home</a>
+            <a href="/about"><i class="fas fa-user" aria-hidden="true"></i> About</a>
+            <a href="/skills"><i class="fas fa-tools" aria-hidden="true"></i> Skills</a>
+            <a href="/projects"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a>
+            <a href="/contact"><i class="fas fa-paper-plane" aria-hidden="true"></i>Contact</a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/nwoye_ezekiel/"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com/nwoye_ezekiel/"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+            <a href="mailto:chinecherem.nwoye.cn@gmail.com"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="horizontal-nav">
+        <div class="links">
+            <a href="/" class="current" onmouseover="this.style.borderBottom='2px #4AEFDF solid'">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </div>
+</div>
+<!------------------------------/Header------------------------->
+<!-----------------------------Hero----------------------------->
+<div class="hero">
+    <div class="hero-text-cont">
+        <div class="hero-text">
+            <p data-aos="fade-right" class="hero-text1 aos-init aos-animate">Hello, I'm Ezekiel</p>
+            <p data-aos="fade-left" class="hero-text2 aos-init aos-animate">A Frontend Web Developer, UI/UX and Graphic Designer. I build
+                unique and interactive websites that run across devices.</p>
+        </div>
+        <a data-aos="fade-up" href="/projects" class="aos-init aos-animate">
+            <button class="hero-but">Projects</button>
+        </a>
+        <button class="anchor" onclick="jump()">
+            <i class="fas fa-chevron-down" style=" margin-right:0;" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div data-aos="fade-left" class="hero-image aos-init aos-animate"></div>
+</div>
+<!-----------------------------/Hero---------------------------->
+<!---------------------------Sections--------------------------->
+<div class="section section1" id="section1">
+    <div class="section-title">
+        <p data-aos="fade-right" class="aos-init aos-animate">Searching for a designer/developer?</p>
+    </div>
+    <div class="content">
+        <p data-aos="fade-left" class="aos-init aos-animate">
+            I design beautiful and neat graphics, user interfaces and amazing websites.
+        </p>
+        <img data-aos="fade-zoom-in" src="/static/images/6.jpg" style="width:100%;max-width:800px;" class="aos-init aos-animate">
+    </div>
+</div>
+<div class="section section2" style="background:lightblue">
+    <div data-aos="fade-zoom-in" class="section-image aos-init aos-animate" style="background-image:url(/static/images/5.jpg);"></div>
+    <div class="section-title">
+        <p data-aos="fade-right" class="aos-init">My Journey</p>
+    </div>
+    <div data-aos="fade-left" class="content aos-init">
+        <p>
+            Designing has always been something that i enjoyed doing while growing up. Technology on the other hand has
+            been of utmost importance to my growth, starting from paper sketches to visualizing my ideas through design
+            softwares and programming.<br>One amazing thing is the fact that it isn't mandatory to have a certificate to
+            become a designer but hardwork, consistency, versatility and experience makes you a good designer.
+        </p>
+        <a href="/about">
+            <button class="section-but">Read More</button>
+        </a>
+    </div>
+</div>
+<div class="section section3" style="background:#f7f7f7;">
+    <div data-aos="fade-zoom-in" class="section-image aos-init" style="background-image:url(/static/images/1.jpg);">
+        <div class="cover"></div>
+    </div>
+    <div class="section-title">
+        <p data-aos="fade-right" class="aos-init">Do you need my services?</p>
+    </div>
+    <div data-aos="fade-left" class="content aos-init">
+        <p>
+            Take that right step today and contact me to get an amazing work done. Messages will be responded to in less
+            than two days and I will be one step to providing you with a satisfying job.
+        </p>
+        <a href="/contact">
+            <button class="section-but">Contact Me</button>
+        </a>
+    </div>
+</div>
+<!-------------------------/Sections---------------------------->
+<!--------------------------Footer------------------------------>
+<div class="section footer" style="background: #1B1E22;">
+    <div id="logo-footer" class="logo logo-footer" onmouseenter="display(this.id)" onclick="display(this.id)">
+        <div class="logo-design">
+            <div class="e-cont">
+                <div class="e e-footer e1"></div>
+                <div class="e e-footer e2"></div>
+                <div class="e e-footer e3"></div>
+            </div>
+        </div>
+        <span class="logo-name">Ezekiel</span>
+    </div>
+    <div class="footer__cont" style="color:white; font-size:18px;">Follow/contact on</div>
+    <div class="social footer__cont" style="color: white;">
+        <a href="https://www.instagram.com/nwoye_ezekiel/"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a>
+        <a href="https://www.twitter.com/nwoye_ezekiel/"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+        <a href="mailto:chinecherem.nwoye.cn@gmail.com"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
+    </div>
+    <div class="footer__cont" style="color:#979da5;">
+        © 2020 Ezekiel, Inc. All Rights Reserved.
+    </div>
+    <div class="footer__cont" style="color:#979da5; margin-top:10px;">
+        Handcrafted by Me.
+    </div>
+</div>
+<!-------------------------/Footer------------------------------>
+<!-------------------------Script------------------------------->
+<script type="text/javascript">
+    AOS.init({
+        duration: 1200,
+    })
+</script>
+<!------------------------/Script------------------------------->
+</body></html>
