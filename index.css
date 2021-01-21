@@ -5,11 +5,11 @@
 }
 @font-face{
 	font-family: 'Montserrat-Regular';
-	src: url('../fonts/Montserrat-Regular.ttf');
+	src: url('Montserrat-Regular.ttf');
 }
 @font-face{
 	font-family: 'Montserrat-Bold';
-	src: url('../fonts/Montserrat-Bold.ttf');
+	src: url('fonts/Montserrat-Bold.ttf');
 }
 html,body{
 	height: 100%;
@@ -273,7 +273,7 @@ button{
 	display: none;
 	height: calc(100% - 130px);
 	width: 100%;
-	background-image: url(.png);
+	background-image: url(programmer.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -439,7 +439,7 @@ button{
 	width: 50%;
 	width: 50%;
 	background: white;
-	background-image: url(../images/ezekiel.jpg);
+	background-image: url(ezekiel.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left;
