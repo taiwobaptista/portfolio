@@ -36,7 +36,7 @@ button{
 	background-color: rgba(0,0,0,0.5);
 }
 .back-to-top{
-	display: flex;
+	display: none;
 	position: fixed;
 	justify-content: center;
 	align-items: center;
