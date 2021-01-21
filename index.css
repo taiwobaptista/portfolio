@@ -273,7 +273,7 @@ button{
 	display: none;
 	height: calc(100% - 130px);
 	width: 100%;
-	background-image: url(../images/programmer.png);
+	background-image: url(.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -701,7 +701,7 @@ textarea{
 	display: none;
 	width: 50%;
 	background: white;
-	background-image: url(../images/3.jpg);
+	background-image: url(3.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
